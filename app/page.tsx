@@ -53,13 +53,23 @@ export default function Page() {
           </button>
         </div>
 
-        {/* IMAGEN REAL */}
-        <div>
-          <img
-            src="/yo.jpg"
-            alt="proceso real"
-            className="w-full h-full object-cover rounded-2xl shadow-2xl"
-          />
+        {/* IMAGEN PREMIUM */}
+        <div className="relative">
+
+          <div className="absolute -inset-4 bg-[#7A9E7E]/20 rounded-[2.5rem] rotate-2"></div>
+
+          <div className="relative bg-white rounded-[2rem] p-4 shadow-2xl border border-black/5">
+
+            <div className="overflow-hidden rounded-[1.5rem]">
+              <img
+                src="/yo.jpg"
+                alt="proceso real"
+                className="w-full h-full object-cover"
+              />
+            </div>
+
+          </div>
+
         </div>
 
       </section>
