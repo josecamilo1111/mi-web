@@ -163,34 +163,12 @@ export default function Page() {
         <div className="fade-up relative md:pl-4">
           <div className="absolute -inset-3 rounded-[2.5rem] bg-[#7A9E7E]/15 rotate-2" />
           <div className="relative rounded-[2rem] border border-black/5 bg-white p-5 shadow-2xl">
-            <div className="flex aspect-[4/5] flex-col justify-between overflow-hidden rounded-[1.5rem] bg-gradient-to-br from-[#E7E4D8] to-white p-6">
-              <div className="flex items-start justify-between gap-4">
-                <div className="rounded-2xl bg-white/85 p-4 shadow-sm backdrop-blur">
-                  <p className="text-xs text-[#6B6B6B]">Hoy</p>
-                  <p className="text-4xl font-semibold">+8,200</p>
-                  <p className="text-sm text-[#6B6B6B]">pasos</p>
-                </div>
-                <div className="rounded-full bg-[#1F1F1F] px-4 py-2 text-xs text-white">
-                  sin extremos
-                </div>
-              </div>
-
-              <div className="space-y-3">
-                <div className="rounded-2xl bg-white/85 p-4 shadow-sm backdrop-blur">
-                  <p className="font-semibold">Comida real</p>
-                  <p className="text-sm text-[#6B6B6B]">Tortillas, arroz, pan, antojos… con control.</p>
-                </div>
-                <div className="grid grid-cols-2 gap-3">
-                  <div className="rounded-2xl bg-white/85 p-4 shadow-sm backdrop-blur">
-                    <p className="text-2xl font-semibold">0</p>
-                    <p className="text-xs text-[#6B6B6B]">dietas mágicas</p>
-                  </div>
-                  <div className="rounded-2xl bg-white/85 p-4 shadow-sm backdrop-blur">
-                    <p className="text-2xl font-semibold">100%</p>
-                    <p className="text-xs text-[#6B6B6B]">vida real</p>
-                  </div>
-                </div>
-              </div>
+            <div className="aspect-[4/5] overflow-hidden rounded-[1.5rem] bg-[#E7E4D8]">
+              <img
+                src="/yo.jpg"
+                alt="proceso real"
+                className="h-full w-full object-cover"
+              />
             </div>
           </div>
         </div>
