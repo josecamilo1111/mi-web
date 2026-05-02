@@ -221,11 +221,18 @@ export default function Page() {
               Ver el curso <Arrow />
             </a>
           </div>
-          <div className="relative flex aspect-video items-center justify-center overflow-hidden rounded-[1.5rem] border border-white/10 bg-white/10">
-            <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent" />
-            <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white text-3xl text-[#1F1F1F] shadow-lg">
-              ▶
-            </div>
+
+          <div className="relative w-full overflow-hidden rounded-[1.5rem] border border-white/10 shadow-xl bg-black">
+            <video
+              controls
+              playsInline
+              preload="metadata"
+              poster="/yo.jpg"
+              className="h-full w-full rounded-[1.5rem]"
+            >
+              <source src="/videoventa.mp4" type="video/mp4" />
+              Tu navegador no soporta video.
+            </video>
           </div>
         </div>
       </section>
