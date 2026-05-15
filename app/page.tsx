@@ -299,9 +299,12 @@ export default function Page() {
           </p>
         </div>
 
-        <a href="#" className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-[#7A9E7E] px-8 py-4 font-semibold text-white shadow-lg shadow-[#7A9E7E]/20 transition hover:scale-[1.02] hover:bg-[#5F7F63] active:scale-[0.98] sm:w-auto">
-          Entrar al curso <Arrow />
-        </a>
+        <a
+  href="/curso"
+  className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-[#7A9E7E] px-8 py-4 font-semibold text-white shadow-lg shadow-[#7A9E7E]/20 transition hover:scale-[1.02] hover:bg-[#5F7F63] active:scale-[0.98] sm:w-auto"
+>
+  Entrar al curso <Arrow />
+</a>
       </section>
 
       <footer className="mx-auto max-w-6xl border-t border-black/5 px-5 py-10 md:px-8">
@@ -311,9 +314,12 @@ export default function Page() {
       </footer>
 
       <div className="fixed bottom-0 left-0 right-0 z-50 border-t border-black/10 bg-[#F7F6F2]/90 p-4 backdrop-blur-xl md:hidden">
-        <a href="#comprar" className="flex w-full items-center justify-center gap-2 rounded-full bg-[#7A9E7E] py-4 font-semibold text-white shadow-lg shadow-[#7A9E7E]/25">
-          Entrar al curso <Arrow />
-        </a>
+        <a
+  href="/curso"
+  className="flex w-full items-center justify-center gap-2 rounded-full bg-[#7A9E7E] py-4 font-semibold text-white shadow-lg shadow-[#7A9E7E]/25"
+>
+  Entrar al curso <Arrow />
+</a>
       </div>
     </main>
   );
