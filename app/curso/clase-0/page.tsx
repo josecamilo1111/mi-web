@@ -23,7 +23,7 @@ export default function Clase0() {
 
         <div className="bg-white rounded-[2rem] p-4 shadow-sm border border-black/5">
           <iframe
-            className="w-full aspect-video rounded-[1.5rem]"
+            className="w-full max-w-[420px] mx-auto aspect-[9/16] rounded-[1.5rem]"
             src="https://www.youtube.com/embed/BOui673zCNo"
             title="Clase 0"
             allowFullScreen

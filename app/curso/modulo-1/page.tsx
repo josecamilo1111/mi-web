@@ -69,7 +69,7 @@ export default function Modulo1() {
               </h2>
 
               <iframe
-                className="w-full aspect-video rounded-[1.5rem]"
+                className="w-full max-w-[420px] mx-auto aspect-[9/16] rounded-[1.5rem]"
                 src={src}
                 title={title}
                 allowFullScreen
