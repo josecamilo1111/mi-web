@@ -73,7 +73,8 @@ export default function Curso() {
           </p>
 
           <a
-            href="#"
+            href="https://forms.gle/Ct7DAVy8CnYvWJun7"
+target="_blank"
             className="inline-flex rounded-full bg-[#7A9E7E] text-white px-6 py-3 font-semibold"
           >
             Completar diagnóstico
